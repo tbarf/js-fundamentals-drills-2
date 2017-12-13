@@ -94,16 +94,17 @@ var fullTimeStatus;
 
 var newTrack;
 
-/* #studentCount
+/* #bigDataTrack
  *
- * Takes in 2 arguments 'data' and 'trackName' and changes the selected track full time status to true.
+ * Takes in 3 arguments 'data', 'trackName', and 'students' and changes the selected track's fullTime value to true, and updates the current students value to the number given.
  *
  * @param {Object}
- * @param {String}
+ * @param {String} track name
+ * @param {Number} students
  * @return {Object}
  */
 
-var studentCount;
+var bigDataTrack;
 
 /* #incrementAge
  *
