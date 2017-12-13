@@ -105,6 +105,120 @@ var newTrack;
 
 var studentCount;
 
+/* #incrementAge
+ *
+ * Takes in 2 arguments 'value' and 'key' and returns key-value pairs in an object.
+ *
+ * @param {Object}
+ * @param {String}
+ * @return {Object}
+ */
+
+var incrementAge;
+
+/* #movieRatings
+ *
+ * Takes in 2 arguments 'key' and 'value' and returns key-value pairs in an object.
+ *
+ * @param {Array}
+ * @param {Array}
+ * @return {Object}
+ */
+
+var movieRatings;
+
+/* #sumOfAllStudents
+ *
+ * Takes in an object and returns the sum of all currently enrolled students.
+ *
+ * @param {Object}
+ * @return {Number}
+ */
+
+var sumOfAllStudents;
+
+/* #mapLanguageToCreator
+ *
+ * Takes in 3 arguments 'data', 'createdBy', and 'year' and returns key-value pairs { name: language }.
+ *
+ * @param {Object} data
+ * @param {Array} names
+ * @param {Number} year
+ * @return {Object}
+ */
+
+var mapLanguageToCreator;
+
+/* #mapOccurrences
+ *
+ * Takes in an object and returns key-value pairs that count how many languages were created in given years { 2017: 1 }.
+ *
+ * @param {Object} data
+ * @return {Object}
+ */
+
+var mapOccurrences;
+
+/* #countLanguages
+ *
+ * Takes in an object and returns the number of languages in the dataset.
+ *
+ * @param {Object}
+ * @return {Number}
+ */
+
+var countLanguages;
+
+/* #phoneNumber
+ *
+ * Takes in a string and returns only the numbers in an array.
+ *
+ * @param {String} phone number
+ * @return {Array}
+ */
+
+var phoneNumber;
+
+/* #phoneNumber
+ *
+ * Takes in an object and returns the names of the tracks offered reversed.
+ *
+ * @param {Object}
+ * @return {Array}
+ */
+
+var reverseStrings;
+
+/* #getAgeById
+ *
+ * Takes in an object and returns an array with the user's username and age.
+ *
+ * @param {Object}
+ * @return {Array}
+ */
+
+var getAgeById;
+
+/* #allTheStates
+ *
+ * Takes in an object and returns an array with all of the state names of where user's have lived.
+ *
+ * @param {Object}
+ * @return {Array}
+ */
+
+var allTheStates;
+
+/* #allTheMovies
+ *
+ * Takes in an object and returns an array of strings with all the names of each user's favorite movies.
+ *
+ * @param {Object}
+ * @return {Array}
+ */
+
+var allTheMovies;
+
 module.exports = {
   getAllUsernames: null,
   hometownCity: null,
@@ -115,5 +229,16 @@ module.exports = {
   countTracks: null,
   newTrack: null,
   fullTimeStatus: null,
-  studentCount: null
+  studentCount: null,
+  incrementAge: null,
+  movieRatings: null,
+  sumOfAllStudents: null,
+  mapLanguageToCreator: null,
+  mapOccurrences: null,
+  countLanguages: null,
+  phoneNumber: null,
+  reverseStrings: null,
+  getAgeById: null,
+  allTheStates: null,
+  allTheMovies: null
 };

@@ -3,6 +3,7 @@ var users = {
     id: {
       "1": {
         username: "user1",
+        age: 32,
         admin: false,
         citiesLived: [
           {
@@ -38,6 +39,7 @@ var users = {
       },
       "2": {
         username: "user2",
+        age: 29,
         admin: true,
         citiesLived: [
           {
@@ -73,6 +75,7 @@ var users = {
       },
       "3": {
         username: "user3",
+        age: 40,
         admin: false,
         citiesLived: [
           {
@@ -157,7 +160,35 @@ var schools = {
   }
 };
 
+var languages = {
+  javascript: {
+    yearCreated: 1995,
+    createdBy: "Brendan Eich"
+  },
+  python: {
+    yearCreated: 1989,
+    createdBy: "Guido van Rossum"
+  },
+  java: {
+    yearCreated: 1995,
+    createdBy: "James Gosling"
+  },
+  c: {
+    yearCreated: 1972,
+    createdBy: "Dennis Ritchie"
+  },
+  elixir: {
+    yearCreated: 2011,
+    createdBy: "Jose Valim"
+  },
+  ruby: {
+    yearCreated: 1993,
+    createdBy: "Yukihiro Matsumoto"
+  }
+};
+
 module.exports = {
   users,
-  schools
+  schools,
+  languages
 };
