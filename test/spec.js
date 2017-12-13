@@ -159,9 +159,9 @@ describe("JS Fundamental Drills", function() {
       ]
     });
   });
-  it("#studentCount is a function that takes in 2 arguments 'data' and 'trackName' and changes the selected track full time status to true.", function() {
-    var count = func.studentCount(nestedData.schools.devLeague, "bigData");
-    expect(count).to.deep.equal({
+  it("#bigDataTrack is a function that takes in 3 arguments 'data', 'trackName', and 'students' and changes the selected track's fullTime value to true, and updates the current students value to the number given.", function() {
+    var track = func.bigDataTrack(nestedData.schools.devLeague, "bigData", 10);
+    expect(track).to.deep.equal({
       bigData: {
         offered: true,
         currentStudents: 10
